@@ -6,12 +6,14 @@
   h2 {
     font-family: Lobster, Monospace;
   }
+
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
+
 </style>
 
 <div class="container-fluid">
@@ -47,6 +49,7 @@
     <li>thunder</li>
     <li>other cats</li>
   </ol>
+<div class="row">
   <form action="/submit-cat-photo">
     <div class="row">
       <div class="col-xs-6">
@@ -67,8 +70,11 @@
         <label><input type="checkbox" name="personality"> Crazy</label>
       </div>
     </div>
-    <input type="text" placeholder="cat photo URL" required>
-    <button type="submit">Submit</button>
+    <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="cat photo URL" required></div>
+    <div class="col-xs-5">
+    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
+    </div>
   </form>
 </div>
 
