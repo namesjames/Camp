@@ -25,5 +25,24 @@ var myName = "James";
 var myStr = "My name is " + myName + " and I am swell!";
 
 var someAdjective = "awesome!";
+
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+var lastNameLength = 0;
+var lastName = "Lovelace"
+
+lastNameLength = lastName.length;
 var myStr = "Learning to code is " 
 myStr += someAdjective;
+
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+var lastLetterOfLastName = lastName[lastName.length -1];
+var secondToLastLetterOfLastName = lastName[lastName.length -2];
+
+
