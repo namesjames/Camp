@@ -45,4 +45,17 @@ firstLetterOfFirstName = firstName[0];
 var lastLetterOfLastName = lastName[lastName.length -1];
 var secondToLastLetterOfLastName = lastName[lastName.length -2];
 
+// MadLibs
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  var result = "";
+    result+= "My "+myAdjective+" "+myNoun+" "+myVerb+" very "+myAdverb+".";
+  return result;
+}
+wordBlanks("cat", "little", "hit", "slowly");
 
+// Arrays
+var testArray = ["James", 25];
+var nestedArray = [["Pizza", 5],["Burger",5], ["Soda", 1]];
+var myArray = [1,2,3];
+var myData = myArray[0];
+myArray[0] = 3;
