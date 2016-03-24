@@ -59,3 +59,17 @@ var nestedArray = [["Pizza", 5],["Burger",5], ["Soda", 1]];
 var myArray = [1,2,3];
 var myData = myArray[0];
 myArray[0] = 3;
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var myData = myArray[2][1];
+myArray.push(["dog",3]);
+var removedFromMyArray = myArray.pop();
+var removedFromMyArray = myArray.shift();
+myArray.unshift(["Paul",35]);
+var myList = [["Rice", 3], ["Avocado", 4], ["Cilantro", 1.75], ["Beans", 2], ["Tortilla", 3]];
+
+//functions
+function myFunction() {
+console.log("Hello World");
+}
+myFunction();
+
