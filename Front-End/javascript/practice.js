@@ -71,5 +71,38 @@ var myList = [["Rice", 3], ["Avocado", 4], ["Cilantro", 1.75], ["Beans", 2], ["T
 function myFunction() {
 console.log("Hello World");
 }
+function myFunction(a, b) {
+  console.log(a + b);
+}
+myFunction(1, 2);
+
+var myGlobal = 10;
+function fun1() 
+oopsGlobal = 5;
+}
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+function myFunction() {
+  'use strict';
+  var myVar = "foo";
+  
+  console.log(myVar);
+}
 myFunction();
 
+function minusSeven(num) {
+  return num - 7;
+}
+
+function timesFive(num){
+ return num * 5;
+}
