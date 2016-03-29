@@ -112,9 +112,9 @@ var processed = 0;
 function process(num) {
   return (num + 3) / 5;
 }
-
 processed = process(7);
 
+//queues
 function queue(arr, item) {
   arr.push(item);
   var removed = arr.shift();
@@ -126,3 +126,19 @@ var testArr = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(queue(testArr, 6)); 
 console.log("After: " + JSON.stringify(testArr));
+
+function myFunction(wasThatTrue) {
+  if (wasThatTrue) {
+    return "That was true";
+    }
+    return "That was false";
+    }
+myFunction(true);
+myFunction(false);
+
+function myTest(val) {
+  if (val == 12) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
