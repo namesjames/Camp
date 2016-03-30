@@ -142,3 +142,47 @@ function myTest(val) {
   }
   return "Not Equal";
 }
+
+function myTest(val) {
+  if (val === 7) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+function myTest(val) {
+  if (val != 99) { 
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+function myTest(val) {
+  if (val <= 12) {
+    return "Smaller Than or Equal to 12";
+  }
+  
+  if (val <= 24) {  
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "25 or More";
+}
+
+function myTest(val) {
+
+  if (val > 24 && val < 51) {
+      return "Yes";
+  }
+
+  return "No";
+}
+
+function myTest(val) {
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+  return "Inside";
+}
