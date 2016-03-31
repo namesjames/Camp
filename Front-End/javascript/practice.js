@@ -186,3 +186,28 @@ function myTest(val) {
 
   return "Inside";
 }
+
+function myTest(val) {
+  var result = "";
+  
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+    result = "5 or Smaller";
+  }
+
+  return result;
+}
+
+function myTest(val) {
+ 
+ if (val > 10) {
+    return "Greater than 10";
+  
+  } else if (val < 5) {
+    return "Smaller than 5";
+
+  } else {
+  return "Between 5 and 10";
+  }
+}
