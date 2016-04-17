@@ -294,3 +294,19 @@ function abTest(a, b) {
 }
 
 abTest(-2,2);
+
+var myDog = {
+  "name": "Cooper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Me, Tanya, Jack, Squirrell"]
+};
+
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+var hatValue = testObj.hat;
+var shirtValue = testObj.shirt;
