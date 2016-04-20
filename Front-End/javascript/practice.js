@@ -364,3 +364,28 @@ var myDog = {
 };
 
 myDog.bark = "woof";
+
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Free Code Camp Campers"],
+  "bark": "woof"
+};
+
+delete myDog.tails;
+
+function phoneticLookup(val) {
+  var result = "";
+
+var lookup = {
+"alpha":"Adams",
+"bravo":"Boston",
+"charlie":"Chicago",
+"delta":"Denver",
+"echo":"Easy",
+"foxtrot":"Frank"
+};
+
+  return result = lookup[val];
+}
