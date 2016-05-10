@@ -508,3 +508,16 @@ function multiplyAll(arr) {
 }
 
 multiplyAll([[1,2],[3,4],[5,6,7]]);
+
+
+function randomFraction() {
+
+  return Math.random();
+
+
+var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+
+function randomWholeNum() {
+
+  return Math.floor(Math.random() * 10);
+}
