@@ -536,3 +536,21 @@ var softwareCount = testString.match(expressionToGetSoftware).length;
 var expression = /and/gi; 
 
 var andCount = testString.match(expression).length;
+
+var testString = "There are 3 cats but 4 dogs.";
+
+var expression = /\d+/g;  
+
+var digitCount = testString.match(expression).length;
+
+var testString = "How many spaces are there in this sentence?";
+
+var expression = /\s+/g;
+
+var spaceCount = testString.match(expression).length;
+
+var testString = "How many non-space characters are there in this sentence?";
+
+var expression = /\S/g;
+
+var nonSpaceCount = testString.match(expression).length;
