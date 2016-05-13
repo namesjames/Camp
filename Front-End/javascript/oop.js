@@ -10,3 +10,20 @@ var MotorBike = function() {
   this.seats = 1;
 };
 
+var Car = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 1;
+};
+
+var myCar = new Car();
+myCar.nickname = "betty";
+
+var Car = function(wheels, seats, engines) {
+  this.wheels = wheels;
+  this.seats = seats;
+  this.engines = engines;
+};
+
+var myCar = new Car(4,4,1);
+
