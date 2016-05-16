@@ -59,3 +59,17 @@ var gear;
 var myCar = new Car();
 
 var myBike = new Bike();
+
+
+var oldArray = [1,2,3,4,5];
+
+var newArray = oldArray.map(function(val){
+  return val + 3;
+});
+
+var array = [4,5,6,7,8];
+var singleVal = 0;
+
+singleVal = array.reduce(function(array, singleVal) {
+  return array + singleVal;
+});
