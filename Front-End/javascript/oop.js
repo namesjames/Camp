@@ -86,3 +86,20 @@ array.sort(function(a, b) {
   return b - a;
 });
 
+var array = [1,2,3,4,5,6,7];
+var newArray = [];
+
+newArray = array;
+newArray.reverse();
+
+var oldArray = [1,2,3];
+var newArray = [];
+
+var concatMe = [4,5,6];
+
+newArray = oldArray.concat(concatMe);
+
+var string = "Split me into an array";
+var array = [];
+
+array = string.split(' ');
