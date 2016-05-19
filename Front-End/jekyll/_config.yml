@@ -1,0 +1,13 @@
+# Welcome to Jekyll!
+
+title: names james...
+email: jamesconti.41@gmail.com
+description: > 
+  Personal Blog
+baseurl: "/blog" 
+url: "http://namesjames.com" 
+twitter_username: jamesstatus
+github_username:  namesjames
+
+# Build settings
+markdown: kramdown
